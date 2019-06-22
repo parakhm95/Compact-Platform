@@ -1,0 +1,57 @@
+.. Compact Platform documentation master file, created by
+   sphinx-quickstart on Fri Jun 21 15:59:38 2019.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
+
+
+Components of the build
+========================
+
+==============  =======================================	========= ============== =========
+Component Type  Component Name                          Vendor    Cost           Units
+==============  =======================================	========= ============== =========
+Frame           GGT150 160mm 2.5 mm Carbon Fiber Frame  Amazon    18             1
+Motors          fsdfsd                                  Lol       2              2
+False           sfsdfs                                  sff       3              3
+True            fdsfsf                                  sds       4              5
+==============  =======================================	========= ============== =========
+
+**Components to be bought**
+
+#. `165 mm Frame`_
+
+	The frame used here is the [GGT150 160mm 2.5mm Arm Thickness Carbon Fiber Frame Kit for Multirotor 45g for RC Quadcopter Parts Accessories Accs DIY] from Amazon. It is wrongly listed as 160 mm frame but is actually 165 mm motor-to-motor. It is 2.4 mm thick and has the 30.5 mm X 30.5 mm holes on the chassis as the standard. 
+
+#. `3 inch Propellers`_
+
+	* The propellers used here are RotorX 3040 TriBlade propellers that can be found on Amazon. 
+	* ~Unit~
+
+#. `3750 kV Motors`_
+	
+	The motors used are the T-motor 3750kV F20II motors. 
+
+
+
+**Components to be printed**
+
+
+#. Quadrotor feet
+
+#. Magnet holders
+
+#. Tag mounts
+
+**Components to be fabricated**
+
+
+#. Propeller Bars
+
+#. Propeller Guards
+
+#. Top frame plate
+
+
+.. _165 mm Frame: https://www.amazon.com/GGT150-Thickness-Multirotor-Quadcopter-Accessories/dp/B075SZ7LV8/ref=sr_1_1?keywords=ggt150+frame&qid=1561159618&s=gateway&sr=8-1
+.. _3 inch Propellers: https://www.amazon.com/RotorX-RX3040TG-3INCH-Blade-Propellers/dp/B07BLP6RZF/ref=sr_1_fkmrnull_3?keywords=3040+triblade&qid=1554751730&s=gateway&sr=8-3-fkmrnull
+.. _3750 kV Motors: https://rotorriot.com/products/t-motor-f20ii-3750kv-1408-fpv-racing-motor

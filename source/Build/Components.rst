@@ -48,12 +48,17 @@ Components to be bought
 
 #. `3750 kV Motors`_
 	
-	The motors used are the T-motor 3750kV F20II motors. 
+	The motors used are the T-motor 3750kV F20II motors.
+
+#. Battery
+
+	The battery used is Tattu 3S 11.1V LiPo with 650mAh capacity. The battery backup tested was 6 minutes 11 seconds from 12.6V to 10.5V on 3S at a weight of 221g. 
 
 
 
-**Components to be printed**
 
+Components to be printed
+-------------------------
 
 #. Quadrotor feet
 
@@ -61,8 +66,8 @@ Components to be bought
 
 #. Tag mounts
 
-**Components to be fabricated**
-
+Components to be fabricated
+-----------------------------
 
 #. Propeller Bars
 

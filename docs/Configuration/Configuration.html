@@ -35,7 +35,56 @@
             
   <div class="section" id="configuring-the-px4-stack">
 <h1>Configuring the PX4 stack<a class="headerlink" href="#configuring-the-px4-stack" title="Permalink to this headline">¶</a></h1>
-<div class="toctree-wrapper compound">
+<p>Change the following parameters in the PX4 stack:</p>
+<div class="section" id="circuit-breakers-parameters-bypass-safety">
+<h2>Circuit breakers parameters - Bypass safety<a class="headerlink" href="#circuit-breakers-parameters-bypass-safety" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic simple">
+<li>CBRK_IO_SAFETY : 22027 | Disable arming check for safety switch.</li>
+<li>CBRK_SUPPLY_CHK : 894281 | Disable the arming check for voltage/power for battery in case the power module is not connected.</li>
+<li>CBRK_USB_CHK : 197848 | Disable the arming check for USB cable being plugged-in.</li>
+</ol>
+<p><em>Note</em> : Do not disable USB check mentioned above without knowing what you are doing. This check was disabled for easy diagnosis of the errors on the platform.</p>
+</div>
+<div class="section" id="pid-and-noise-filter-parameters">
+<h2>PID and Noise-filter parameters<a class="headerlink" href="#pid-and-noise-filter-parameters" title="Permalink to this headline">¶</a></h2>
+<p>Tuned the Low-pass filter using <a class="reference external" href="https://docs.px4.io/en/config_mc/racer_setup.html#filter-tuning">filter tuning guide</a> and settled on 80Hz for IMU_GYRO_CUTOFF and 45 Hz for MC_DTERM_CUTOFF. Make sure PID-Gains are very low so that the noise doesn’t originate from the control loop.</p>
+<p><em>Note</em> : Set the hover throttle parameter MPC_THR_HOVER to the throttle needed for hovering or the vehicle will not hold altitude. Issue referenced <a class="reference external" href="https://github.com/PX4/Firmware/issues/12180">here</a>.</p>
+<ol class="arabic simple">
+<li>IMU_GYRO_CUTOFF : 80 | Noise filter cutoff.</li>
+<li>MC_DTERM_CUTOFF : 45 | Noise filter cutoff.</li>
+<li>IMU_GYRO_CUTOFF : 80 | Noise filter cutoff.</li>
+<li>MC_DTERM_CUTOFF : 45 | Noise filter cutoff.</li>
+<li>MC_PITCHRATE_D : 0.001</li>
+<li>MC_PITCHRATE_I : 0.027</li>
+<li>MC_PITCHRATE_P : 0.04</li>
+<li>MC_PITCH_P : 5.5</li>
+<li>MC_ROLLRATE_D : 0.001</li>
+<li>MC_ROLLRATE_I : 0.027</li>
+<li>MC_ROLLRATE_P : 0.04</li>
+<li>MC_ROLL_P : 5.5</li>
+<li>MC_YAWRATE_I : 0.06</li>
+<li>MC_YAWRATE_P : 0.1</li>
+<li>MC_YAW_P : 2.3</li>
+</ol>
+</div>
+<div class="section" id="rangefinder-parameters-garmin-lidar-lite-v3-or-maxbotix-mb1242">
+<h2>Rangefinder parameters : Garmin Lidar Lite v3 or Maxbotix MB1242<a class="headerlink" href="#rangefinder-parameters-garmin-lidar-lite-v3-or-maxbotix-mb1242" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic simple">
+<li>SENS_EN_LL40LS : 2 | Enable the Garmin Lidar Lite v3 on $I^2C$.</li>
+<li>EKF2_HGT_MODE : 2 | Selecting the rangefinder as the primary height sensor.</li>
+<li>EKF2_MIN_RNG : 0.05 | Minimum sensing distance for Garmin Lidar Lite v3.</li>
+<li>EKF2_RNG_AID : 1 | Enabling range aid for takeoff and landing.</li>
+<li>MPC_THR_HOVER : 0.3 - 0.4 | 30% throttle for a 3:1 power-to-weight ratio of the robot. Verify in manual mode.</li>
+<li>SENS_EN_MB12XX : 1 | Enable the Maxbotix MB1242 sonar.</li>
+</ol>
+</div>
+<div class="section" id="logging-parameters">
+<h2>Logging parameters<a class="headerlink" href="#logging-parameters" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic simple">
+<li>SDLOG_MODE : 1 | Log from boot to disarm - Used for error detection.</li>
+<li>SDLOG_PROFILE : 91</li>
+<li>SDLOG_UTC_OFFSET : -240 | 4 hours or 240 mins behind UTC.</li>
+</ol>
 </div>
 </div>
 
@@ -59,7 +108,11 @@
 <p class="caption"><span class="caption-text">Contents:</span></p>
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="../Build/Build.html">Building the drone</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Configuring the PX4 stack</a><ul class="simple">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Configuring the PX4 stack</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#circuit-breakers-parameters-bypass-safety">Circuit breakers parameters - Bypass safety</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#pid-and-noise-filter-parameters">PID and Noise-filter parameters</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#rangefinder-parameters-garmin-lidar-lite-v3-or-maxbotix-mb1242">Rangefinder parameters : Garmin Lidar Lite v3 or Maxbotix MB1242</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#logging-parameters">Logging parameters</a></li>
 </ul>
 </li>
 </ul>

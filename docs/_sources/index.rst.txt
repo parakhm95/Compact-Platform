@@ -9,7 +9,7 @@ Welcome to Compact Platform's documentation!
 .. toctree::
    Build/Build
    Configuration/Configuration
-   :maxdepth: 2
+   :maxdepth: 3
    :caption: Contents:
 
 

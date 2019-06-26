@@ -16,7 +16,8 @@ Components of the build
 .. True            fdsfsf                                  sds       4              5
 .. ==============  =======================================	========= ============== =========
 
-.. csv-table:: Component table!
+.. csv-table:: 
+   Component table!
    :header: "Component Type", "Component Name", "Vendor", "Price - USD", "Units", "Link"
    :widths: 3, 25, 5,5,3,35
 
@@ -34,7 +35,7 @@ Components of the build
 
 
 
-Components to be bought
+Components :: Bought
 ------------------------
 
 #. `165 mm Frame`_
@@ -57,7 +58,7 @@ Components to be bought
 
 
 
-Components to be printed
+Components :: Printed
 -------------------------
 
 #. Quadrotor feet
@@ -66,7 +67,7 @@ Components to be printed
 
 #. Tag mounts
 
-Components to be fabricated
+Components :: Fabricated
 -----------------------------
 
 #. Propeller Bars

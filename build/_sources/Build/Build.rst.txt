@@ -1,9 +1,9 @@
-Building the drone
+Physical assembly
 ===================
 
 
 .. toctree::
    Components
    Assembly
-   :maxdepth: 2
+   :maxdepth: 3
    :caption: Contents:

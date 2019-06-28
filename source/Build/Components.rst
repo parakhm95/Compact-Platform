@@ -38,6 +38,7 @@ Components :: Bought
    "RangeFinder","MaxBotix Inc MB1242-000 I2CXL-MaxSonar-EZ4","Amazon","39.95","1", "https://www.amazon.com/MaxBotix-Ultrasonic-Sensor-MB1242-000-I2CXL-MaxSonar-EZ4/dp/B07F1V6GQ1/ref=sr_1_2?keywords=mb1242&qid=1559595644&s=gateway&sr=8-2"
    "Radio Receiver", "Spektrum DSMX Quad Race Receiver with Diversity", "Amazon", "25.35","1","https://www.amazon.com/Spektrum-DSMX-Quad-Receiver-Diversity/dp/B01ABV7K5A/ref=sr_1_3?keywords=spektrum+receiver&qid=1561529552&s=gateway&sr=8-3"
    "Radio Transmitter","Spektrum DX6 6-Channel 2.4GHz DSMX RC Radio Transmitter SPMR6750 ", "Amazon", "229.99", "1", "https://www.amazon.com/Spektrum-SPMR6750-R6750-DX6-Transmitter/dp/B01B9DZ0HY/ref=sr_1_3?keywords=spektrum+transmitter+dx6&qid=1561529774&s=gateway&sr=8-3"
+   "Micro SD Card","SanDisk 16GB Ultra microSDHC UHS-I Memory Card with Adapter","Amazon","5.79","2", "https://www.amazon.com/Sandisk-Ultra-Micro-UHS-I-Adapter/dp/B073K14CVB/ref=sr_1_3?keywords=micro+sd+card&qid=1561689030&refinements=p_n_feature_two_browse-bin%3A6518303011&rnid=6518301011&s=pc&sr=1-3"
 
 
 
@@ -64,16 +65,38 @@ Components :: Fabricated
    "Propeller Bar","1/16th inch Carbon Fiber", "Waterjet Cutting", "
    .. figure::
       ../Images/prop_bar.JPG
+      :align: center
       :scale: 10 %"
    "Propeller Guard","1/16th inch Carbon Fiber", "Waterjet Cutting", "
    .. figure::
       ../Images/prop_guard.JPG
+      :align: center
       :scale: 10 %"
    "Top Frame Plate","1/16th inch Carbon Fiber", "Waterjet Cutting", "
    .. figure::
-      ../Images/2_1_a.JPG
+      ../Images/1a_1_a.JPG
+      :align: center
       :scale: 10 %"
-   "Vibration washer","1/16th inch ABS", "Laser Cutting", ""
+   "Vibration washer","1/16th inch ABS", "Laser Cutting", "
+   .. figure::
+      ../Images/washer.JPG
+      :align: center
+      :scale: 10 %"
+   "MB1242 Sonar Mount Plate","1/16th inch ABS", "Laser Cutting", "
+   .. figure::
+      ../Images/MB1242_Plate.JPG
+      :align: center
+      :scale: 10 %"
+   "Raspberry Pi 3 A+ Mount","1/16th inch ABS", "Laser Cutting", "
+   .. figure::
+      ../Images/PiA_Mount.JPG
+      :align: center
+      :scale: 10 %"
+   "Raspberry Pi 3 B+ Mount","1/16th inch ABS", "Laser Cutting", "
+   .. figure::
+      ../Images/PiB_Mount.JPG
+      :align: center
+      :scale: 10 %"
 
 
 Components :: Fasteners
@@ -84,6 +107,9 @@ Components :: Fasteners
 * M3 X 6 X 6 Standoff - Plastic
 * M3 X 8 X 6 Standoff - Plastic
 * M3 Hex Nuts - Plastic and Metal
+* M3 X 5 X 6 Standoff - Plastic
+* M3 X 6 Screws - Plastic
+* M3 X 8 Screws - Plastic
 
 
 .. _165 mm Frame: https://www.amazon.com/GGT150-Thickness-Multirotor-Quadcopter-Accessories/dp/B075SZ7LV8/ref=sr_1_1?keywords=ggt150+frame&qid=1561159618&s=gateway&sr=8-1

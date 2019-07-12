@@ -229,7 +229,7 @@ Assembling the Drone
 
 #. Take M3 X 5 X 6 standoffs and screw them into the outermost holes of the Raspberry Pi 3 A+ mount plate using M3 Hex Nuts. Mount the plate on top of the Pixhawk board such that the standoffs face upwards. Use M3 Hex Nuts to secure it. Mount the Raspberry Pi 3 A+ board on top of the plate to finish the stack. Use M3 X 6 screws to secure it in place.
 
-	.. list-table:: Step 1.4
+	.. list-table:: Step 1.8
 		:widths: 300 300
 		:align: center
 		:header-rows: 0
@@ -240,6 +240,41 @@ Assembling the Drone
 		  - .. figure::
 				../Images/8_b.JPG
 				:scale: 5 %
+
+#. Mate the MB1242 Sonar Mount plate and the Sonar with each other using two M3 X 8 screws and four M3 Hex Nuts. Solder the wires on the sonar according to the pin out from the manual.
+
+
+	.. list-table:: Step 1.9
+	   :widths: 300 300 300
+	   :align: center
+	   :header-rows: 0
+	
+	   * - .. figure::
+	           ../Images/9_a.JPG
+	           :scale: 5 %
+	     - .. figure::
+	           ../Images/9_b.JPG
+	           :scale: 5 %
+	     - .. figure::
+	           ../Images/9_c.JPG
+	           :scale: 5 %
+
+#. Take M3 X 6 X 6 standoffs and screw them upside down using M3 X 6 screws into the outermost holes of the front nose of the chassis. Mount the sonar with the plate from the previous step such that the sonar is facing down and lock the plate with M3 X 20 X 6 standoffs. 
+
+	.. list-table:: Step 1.10
+		:widths: 300 300
+		:align: center
+		:header-rows: 0
+
+		* - .. figure::
+				../Images/10_a.JPG
+				:scale: 5 % 
+		  - .. figure::
+				../Images/10_b.JPG
+				:scale: 5 %
+
+#. 
+
 
 
 

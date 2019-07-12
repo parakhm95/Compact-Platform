@@ -110,6 +110,7 @@ Components :: Fasteners
 * M3 X 5 X 6 Standoff - Plastic
 * M3 X 6 Screws - Plastic
 * M3 X 8 Screws - Plastic
+* M3 X 20 X 6 Standoff - Plastic
 
 
 .. _165 mm Frame: https://www.amazon.com/GGT150-Thickness-Multirotor-Quadcopter-Accessories/dp/B075SZ7LV8/ref=sr_1_1?keywords=ggt150+frame&qid=1561159618&s=gateway&sr=8-1

@@ -54,6 +54,8 @@ Components :: Printed
 
 #. Tag mounts
 
+#. RPI Camera Mount
+
 Components :: Fabricated
 -----------------------------
 
@@ -95,6 +97,26 @@ Components :: Fabricated
    "Raspberry Pi 3 B+ Mount","1/16th inch ABS", "Laser Cutting", "
    .. figure::
       ../Images/PiB_Mount.JPG
+      :align: center
+      :scale: 10 %"
+   "Landing gear/feet","ABS", "3D Printing", "
+   .. figure::
+      ../Images/feet.JPG
+      :align: center
+      :scale: 10 %"
+   "Tag Mount","ABS", "3D Printing", "
+   .. figure::
+      ../Images/tag_mount.JPG
+      :align: center
+      :scale: 10 %"
+   "RPI Camera Mount","ABS", "3D Printing", "
+   .. figure::
+      ../Images/camera_mount.JPG
+      :align: center
+      :scale: 10 %"
+   "Magnet Holders","ABS", "3D Printing", "
+   .. figure::
+      ../Images/magnet_holder.JPG
       :align: center
       :scale: 10 %"
 

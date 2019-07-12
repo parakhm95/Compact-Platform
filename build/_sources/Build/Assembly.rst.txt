@@ -273,6 +273,37 @@ Assembling the Drone
 				../Images/10_b.JPG
 				:scale: 5 %
 
+#. Take M2 X 8 screws and fasten the Raspberry Pi camera to the camera mount in the orientation shown below. After that, mount the camera on top of the sonar sensor using long M3 standoffs according to the height required. Try to minimize the number of standoffs used so as to minimize the bending component along the mount. 
+
+
+	.. list-table:: Step 1.11
+		:widths: 300 300
+		:align: center
+		:header-rows: 0
+
+		* - .. figure::
+				../Images/11_a.JPG
+				:scale: 12 % 
+		  - .. figure::
+				../Images/11_b.JPG
+				:scale: 5 %
+
+#. Mount the GPS module on the top frame plate using shortest M3 standoffs available. Example shown below.
+
+
+	.. list-table:: Step 1.12
+		:widths: 300 300
+		:align: center
+		:header-rows: 0
+
+		* - .. figure::
+				../Images/12_a.JPG
+				:scale: 5 % 
+		  - .. figure::
+				../Images/12_b.JPG
+				:scale: 5 %
+
+
 
 
 

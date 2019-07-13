@@ -40,6 +40,9 @@ Components :: Bought
    "Radio Transmitter","Spektrum DX6 6-Channel 2.4GHz DSMX RC Radio Transmitter SPMR6750 ", "Amazon", "229.99", "1", "https://www.amazon.com/Spektrum-SPMR6750-R6750-DX6-Transmitter/dp/B01B9DZ0HY/ref=sr_1_3?keywords=spektrum+transmitter+dx6&qid=1561529774&s=gateway&sr=8-3"
    "Micro SD Card","SanDisk 16GB Ultra microSDHC UHS-I Memory Card with Adapter","Amazon","5.79","2", "https://www.amazon.com/Sandisk-Ultra-Micro-UHS-I-Adapter/dp/B073K14CVB/ref=sr_1_3?keywords=micro+sd+card&qid=1561689030&refinements=p_n_feature_two_browse-bin%3A6518303011&rnid=6518301011&s=pc&sr=1-3"
 
+*Notes* :
+- The frame is wrongly listed to be 160 mm when in reality, it is 165 mm.
+- The thrust curves are available in the github repository for 2S, 3S, and 4S LiPos.
 
 
 
@@ -134,7 +137,3 @@ Components :: Fasteners
 * M3 X 8 Screws - Plastic
 * M3 X 20 X 6 Standoff - Plastic
 
-
-.. _165 mm Frame: https://www.amazon.com/GGT150-Thickness-Multirotor-Quadcopter-Accessories/dp/B075SZ7LV8/ref=sr_1_1?keywords=ggt150+frame&qid=1561159618&s=gateway&sr=8-1
-.. _3 inch Propellers: https://www.amazon.com/RotorX-RX3040TG-3INCH-Blade-Propellers/dp/B07BLP6RZF/ref=sr_1_fkmrnull_3?keywords=3040+triblade&qid=1554751730&s=gateway&sr=8-3-fkmrnull
-.. _3750 kV Motors: https://rotorriot.com/products/t-motor-f20ii-3750kv-1408-fpv-racing-motor

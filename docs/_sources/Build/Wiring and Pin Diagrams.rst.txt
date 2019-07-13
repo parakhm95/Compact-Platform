@@ -9,12 +9,12 @@ Wiring and Pin Diagrams
 1. Cables required
 --------------------
 
-#. 4-pin JST-SH cable shipping with the DYS side - Used for Powering FC.
-#. 8-pin JST-SH cable shipping with the DYS side - Used for Motor Outputs.
-#. 10-pin JST-SH cable for the Pixfalcon side - Used for Motor Outputs.
-#. 4-pin JST-SH cable for the Pixfalcon side - Used for Sonar or Laser Rangefinder.
-#. 6-pin JST-SH cable for Pixfalcon side - Used for Power Input.
-#. 6-pin JST-SH cable for Pixfalcon side - Used on GPS - Ships with GPS. 
+* 4-pin JST-SH cable shipping with the DYS side - Used for Powering FC.
+* 8-pin JST-SH cable shipping with the DYS side - Used for Motor Outputs.
+* 10-pin JST-SH cable for the Pixfalcon side - Used for Motor Outputs.
+* 4-pin JST-SH cable for the Pixfalcon side - Used for Sonar or Laser Rangefinder.
+* 6-pin JST-SH cable for Pixfalcon side - Used for Power Input.
+* 6-pin JST-SH cable for Pixfalcon side - Used on GPS - Ships with GPS. 
 
 2. Connections required
 -------------------------
